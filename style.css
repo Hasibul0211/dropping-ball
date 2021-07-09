@@ -1,0 +1,465 @@
+body{
+    margin: 0;
+    background-color: rgb(53, 53, 117);
+}
+.ball-box{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(233, 224, 213);
+    position: relative;
+    top: 110px;
+    left: 20px;
+    box-shadow: 2px 3px 8px aqua;
+    border-top-right-radius: 25px;
+}
+.ball-drop{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+    top: 49px;
+    left: 50px;
+    background-color: rgb(211, 105, 105);
+   
+}
+.stage{
+    height: 100px;
+    width: 99%;
+    border: 2px solid black;
+    position: absolute;
+    top: 550px;
+    left: 2px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-top: 5px solid yellowgreen;
+
+
+}
+.stage div{
+    height: 97%;
+    width: 30px;
+    border: 3px solid red;
+    background-color: white;
+}
+@keyframes example {
+    0% {background-color: red;
+    left: 10px;
+    top: 0px;
+}
+    10% {background-color: red;
+    top: 0px;
+    left: 120px;
+    transform: translate(30px,10px);
+    }
+    20% {background-color: yellowgreen;
+        top: 440px;
+        left: 200px;
+    }
+    30% {background-color: red;
+        top: 60px;
+        left: 300px;
+    }
+    40% {background-color: red;
+        top:440px;
+        left: 380px;
+    }
+    50% {background-color: red;
+        top:100px;
+        left: 450px;
+    }
+    60% {background-color: red;
+        top: 440px;
+        left: 550px;
+    }
+    70% {background-color: red;
+        top: 150px;
+        left: 600px;
+    }
+    80% {background-color: red;
+        top: 440px;
+        left: 700px;
+    }
+    90% {background-color: red;
+        top: 200px;
+        left: 780px;
+    }
+    95% {background-color: red;
+        top: 440px;
+        left: 850px;
+    }
+    100% {background-color: red;
+        top: 440px;
+        left: 880px;
+    }
+
+  }
+  
+  /* The element to apply the animation to */
+  .ball{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: relative;
+    top: 49px;
+    left: 50px;
+    background-color: rgb(211, 105, 105);
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: normal;
+  }
+  @keyframes example1 {
+    0% {background-color: red;
+    left: 10px;
+    top: 0px;
+}
+    10% {background-color: red;
+    top: 0px;
+    left: 120px;
+    transform: translate(30px,10px);
+    }
+    20% {background-color: yellowgreen;
+        top: 440px;
+        left: 200px;
+    }
+    30% {background-color: red;
+        top: 60px;
+        left: 300px;
+    }
+    40% {background-color: red;
+        top:440px;
+        left: 380px;
+    }
+    50% {background-color: red;
+        top:100px;
+        left: 450px;
+    }
+    60% {background-color: red;
+        top: 440px;
+        left: 550px;
+    }
+    70% {background-color: red;
+        top: 150px;
+        left: 600px;
+    }
+    80% {background-color: red;
+        top: 440px;
+        left: 700px;
+    }
+    90% {background-color: red;
+        top: 200px;
+        left: 780px;
+    }
+    95% {background-color: red;
+        top: 440px;
+        left: 850px;
+    }
+    100% {background-color: red;
+        top: 440px;
+        left: 880px;
+    }
+
+  }
+  
+  /* The element to apply the animation to */
+  .ball1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: rgb(211, 105, 105);
+    animation-name: example1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-delay: 2s;
+  }
+  @keyframes example2 {
+    0% {background-color: red;
+    left: 10px;
+    top: 0px;
+}
+    10% {
+        background-color: red;
+        top: 0px;
+        left: 120px;
+        transform: translate(30px,10px);
+    }
+    20% {background-color: yellowgreen;
+        top: 440px;
+        left: 200px;
+    }
+    30% {background-color: red;
+        top: 60px;
+        left: 220px;
+    }
+    40% {background-color: red;
+        top: 440px;
+        left: 360px;
+    }
+    50% {background-color: red;
+        top: 90px;
+        left: 430px;
+    }
+    60% {background-color: red;
+        top: 440px;
+        left: 500px;
+    }
+    70% {background-color: red;
+        top: 120px;
+        left: 580px;
+    }
+    80% {background-color: red;
+        top: 440px;
+        left: 720px;
+    }
+    90% {background-color: red;
+        top: 180px;
+        left: 780px;
+    }
+    95% {background-color: red;
+        top: 440px;
+        left: 820px;
+    }
+    100% {background-color: red;
+        top: 440px;
+        left: 900px;
+    }
+
+  }
+  
+  /* The element to apply the animation to */
+  .ball2{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: rgb(211, 105, 105);
+    animation-name: example2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-delay: 5s;
+  }
+  @keyframes example3 {
+    0% {background-color: red;
+    left: 10px;
+    top: 0px;
+}
+    10% {background-color: red;
+    top: 0px;
+    left: 120px;
+    transform: translate(30px,10px);
+    }
+    20% {background-color: yellowgreen;
+        top: 440px;
+        left: 210px;
+    }
+    30% {background-color: red;
+        top: 70px;
+        left: 320px;
+    }
+    40% {background-color: red;
+        top:440px;
+        left: 400px;
+    }
+    50% {background-color: red;
+        top:120px;
+        left: 460px;
+    }
+    60% {background-color: red;
+        top: 440px;
+        left: 580px;
+    }
+    70% {background-color: red;
+        top: 170px;
+        left: 620px;
+    }
+    80% {background-color: red;
+        top: 440px;
+        left: 710px;
+    }
+    90% {background-color: red;
+        top: 250px;
+        left: 790px;
+    }
+    95% {background-color: red;
+        top: 440px;
+        left: 880px;
+    }
+    100% {background-color: red;
+        top: 440px;
+        left: 900px;
+    }
+
+  }
+  
+  /* The element to apply the animation to */
+  .ball3{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: rgb(211, 105, 105);
+    animation-name: example3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-delay: 6s;
+  }
+  @keyframes example4 {
+    0% {background-color: red;
+    left: 10px;
+    top: 0px;
+}
+    10% {background-color: red;
+    top: 0px;
+    left: 120px;
+    transform: translate(30px,10px);
+    }
+    20% {background-color: yellowgreen;
+        top: 440px;
+        left: 210px;
+    }
+    30% {background-color: red;
+        top: 70px;
+        left: 320px;
+    }
+    40% {background-color: red;
+        top:440px;
+        left: 400px;
+    }
+    50% {background-color: red;
+        top:120px;
+        left: 460px;
+    }
+    60% {background-color: red;
+        top: 440px;
+        left: 580px;
+    }
+    70% {background-color: red;
+        top: 170px;
+        left: 620px;
+    }
+    80% {background-color: red;
+        top: 440px;
+        left: 710px;
+    }
+    90% {background-color: red;
+        top: 250px;
+        left: 790px;
+    }
+    95% {background-color: red;
+        top: 440px;
+        left: 880px;
+    }
+    100% {background-color: red;
+        top: 440px;
+        left: 900px;
+    }
+
+  }
+  
+  /* The element to apply the animation to */
+  .ball4{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: rgb(211, 105, 105);
+    animation-name: example4;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-delay: 8s;
+  }
+  @keyframes example5 {
+    0% {background-color: red;
+    left: 10px;
+    top: 0px;
+}
+    10% {background-color: red;
+    top: 0px;
+    left: 120px;
+    transform: translate(30px,10px);
+    }
+    20% {background-color: yellowgreen;
+        top: 440px;
+        left: 180px;
+    }
+    30% {background-color: red;
+        top: 50px;
+        left: 330px;
+    }
+    40% {background-color: red;
+        top:440px;
+        left: 360px;
+    }
+    50% {background-color: red;
+        top:100px;
+        left: 420px;
+    }
+    60% {background-color: red;
+        top: 440px;
+        left: 560px;
+    }
+    70% {background-color: red;
+        top: 150px;
+        left: 600px;
+    }
+    80% {background-color: red;
+        top: 440px;
+        left: 700px;
+    }
+    90% {background-color: red;
+        top: 240px;
+        left: 800px;
+    }
+    95% {background-color: red;
+        top: 440px;
+        left: 860px;
+    }
+    100% {background-color: red;
+        top: 440px;
+        left: 920px;
+    }
+
+  }
+  
+  /* The element to apply the animation to */
+  .ball5{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid red;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: rgb(211, 105, 105);
+    animation-name: example5;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    animation-delay: 11s;
+  }
